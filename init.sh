@@ -1,6 +1,8 @@
 sudo apt-get update
 sudo apt-get upgrade -y
 
+alias cln='reset && clear'
+alias up='sudo apt-get update; sudo apt-get upgrade -y;'
 mv aliases.txt ~/.bash_aliases
 
 sudo apt-get install deja-dup gimp ffmpeg kdenlive audacity openssh-client openssh-server v4l2loopback-dkms git -y

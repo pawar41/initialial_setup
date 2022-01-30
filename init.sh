@@ -4,7 +4,7 @@ sudo apt-get upgrade -y
 mv aliases.txt ~/.bash_aliases
 source ~/.bashrc
 
-sudo apt-get install deja-dup gimp ffmpeg kdenlive audacity openssh-client openssh-server v4l2loopback-dkms -y
+sudo apt-get install deja-dup gimp ffmpeg kdenlive audacity openssh-client openssh-server v4l2loopback-dkms git -y
 
 sudo add-apt-repository ppa:obsproject/obs-studio
 sudo apt-get update

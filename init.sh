@@ -34,3 +34,8 @@ sudo apt install atom -y
 sudo apt-get install python3-tk python3-dev -y
 
 sudo apt-get install pip
+
+mkdir -p ~/Documents/apps/arduino
+wget https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz -P ~/Documents/apps/arduino
+tar -xf ~/Documents/apps/arduino/*.tar.xz -C ~/Documents/apps/arduino/
+sudo ./home/shawn/Documents/apps/arduino/install.sh

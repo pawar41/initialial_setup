@@ -32,3 +32,5 @@ sudo add-apt-repository "deb [arch=amd64] https://packagecloud.io/AtomEditor/ato
 sudo apt install atom -y
 
 sudo apt-get install python3-tk python3-dev -y
+
+sudo apt-get install pip

@@ -1,2 +1,2 @@
-alias cln='reset && clear'
-alias up='sudo apt-get update; sudo apt-get upgrade -y;'
+alias cln='reset && clear';
+alias up='sudo apt-get update; sudo apt-get upgrade -y;';

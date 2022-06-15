@@ -63,6 +63,7 @@ curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get update -y;
 sudo apt-get upgrade -y;
 sudo apt-get install nodejs -y;
+sudo apt-get install npm -y;
 
 sudo apt-get update -y;
 sudo apt-get upgrade -y;
@@ -141,3 +142,6 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 firefox https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppDownloadregion
+
+
+sudo npm install -g ember-cli

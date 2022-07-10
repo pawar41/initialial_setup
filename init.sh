@@ -145,3 +145,8 @@ firefox https://www.microsoft.com/en-us/microsoft-teams/download-app#desktopAppD
 
 
 sudo npm install -g ember-cli
+
+
+wget https://github.com/gohugoio/hugo/releases/download/v0.79.0/hugo_0.79.0_Linux-64bit.deb
+sudo dpkg -i hugo_0.79.0_Linux-64bit.deb
+ 
